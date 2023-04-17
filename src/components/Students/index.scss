@@ -1,0 +1,50 @@
+.students {
+  background-color: #e5e5e541;
+  height: calc(100% - 88px);
+
+  &__inner{
+    height: calc(100vh + 100px);
+  }
+
+  &-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 12px 0;
+    
+
+    &__title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 27px;
+      color: #000000;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  tr{
+    border-radius: 12px;
+  }
+
+  td, th{
+    color: inherit;
+  }
+
+  &-extra {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+  }
+
+  .table-image {
+    background: #c4c4c4;
+    border-radius: 8px;
+    width: 65px;
+    height: 55px;
+    overflow: hidden;
+  }
+}
